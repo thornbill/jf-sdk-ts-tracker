@@ -1,0 +1,67 @@
+[
+    {
+        "version": "unstable",
+        "builds": [
+            {
+                "tool": "parcel",
+                "size": 399869
+            },
+            {
+                "tool": "rollup",
+                "size": 309445
+            }
+        ]
+    },
+    {
+        "version": "0.8.2",
+        "builds": [
+            {
+                "tool": "parcel",
+                "size": 223081
+            },
+            {
+                "tool": "rollup",
+                "size": 251740
+            }
+        ]
+    },
+    {
+        "version": "0.8.1",
+        "builds": [
+            {
+                "tool": "parcel",
+                "size": 222564
+            },
+            {
+                "tool": "rollup",
+                "size": 250082
+            }
+        ]
+    },
+    {
+        "version": "0.8.0",
+        "builds": [
+            {
+                "tool": "parcel",
+                "size": null
+            },
+            {
+                "tool": "rollup",
+                "size": null
+            }
+        ]
+    },
+    {
+        "version": "0.7.0",
+        "builds": [
+            {
+                "tool": "parcel",
+                "size": 474149
+            },
+            {
+                "tool": "rollup",
+                "size": 321319
+            }
+        ]
+    }
+]

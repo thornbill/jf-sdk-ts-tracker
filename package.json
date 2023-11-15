@@ -1,0 +1,36 @@
+{
+  "name": "jf-sdk-ts-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build-metadata.mjs",
+  "scripts": {
+    "build": "npm run build:parcel || npm run build:rollup || npm run build:metadata && npm run build:readme",
+    "build:metadata": "node build-metadata.mjs",
+    "build:readme": "node build-readme.mjs",
+    "build:parcel": "npm --workspaces run build:parcel",
+    "build:rollup": "npm --workspaces run build:rollup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "25.0.7",
+    "@rollup/plugin-json": "6.0.1",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "@rollup/plugin-terser": "0.4.4",
+    "buffer": "6.0.3",
+    "parcel": "2.10.3",
+    "process": "0.11.10",
+    "rollup": "3.29.4",
+    "rollup-plugin-sizes": "1.0.5"
+  },
+  "engines": {
+    "node": "20"
+  }
+}
