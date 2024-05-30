@@ -4,29 +4,42 @@
         "builds": [
             {
                 "tool": "parcel",
-                "size": 399869
+                "size": 348683
             },
             {
                 "tool": "rollup",
-                "size": 309445
+                "size": 299025
             }
         ]
     },
     {
-        "version": "0.8.2",
+        "version": "v0.9.0",
         "builds": [
             {
                 "tool": "parcel",
-                "size": 223081
+                "size": 353504
             },
             {
                 "tool": "rollup",
-                "size": 251740
+                "size": 303623
             }
         ]
     },
     {
-        "version": "0.8.1",
+        "version": "v0.8.2",
+        "builds": [
+            {
+                "tool": "parcel",
+                "size": 227902
+            },
+            {
+                "tool": "rollup",
+                "size": 256659
+            }
+        ]
+    },
+    {
+        "version": "v0.8.1",
         "builds": [
             {
                 "tool": "parcel",
@@ -34,12 +47,12 @@
             },
             {
                 "tool": "rollup",
-                "size": 250082
+                "size": 250408
             }
         ]
     },
     {
-        "version": "0.8.0",
+        "version": "v0.8.0",
         "builds": [
             {
                 "tool": "parcel",
@@ -52,7 +65,7 @@
         ]
     },
     {
-        "version": "0.7.0",
+        "version": "v0.7.0",
         "builds": [
             {
                 "tool": "parcel",
@@ -60,7 +73,7 @@
             },
             {
                 "tool": "rollup",
-                "size": 321319
+                "size": 321640
             }
         ]
     }
