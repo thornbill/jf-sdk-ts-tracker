@@ -3,10 +3,10 @@ import fs from 'node:fs/promises';
 const versions = [
 	'unstable',
 	'v0.9.0',
-	'0.8.2',
-	'0.8.1',
-	'0.8.0',
-	'0.7.0'
+	'v0.8.2',
+	'v0.8.1',
+	'v0.8.0',
+	'v0.7.0'
 ];
 
 const buildTools = [
