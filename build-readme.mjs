@@ -2,12 +2,18 @@ import fs from 'node:fs/promises';
 
 import metadata from './metadata.json' assert { type: 'json' };
 
+const getKiB = size => {
+	if (!size) return size;
+
+	return (size / 1024).toFixed(2) + ' KiB';
+}
+
 (async () => {
 	let metadataTable = `| Version | Build Size (Parcel) | Build Size (Rollup) |
 |---|---|---|`;
 	metadata.forEach(meta => {
 		const flatBuilds = meta.builds.reduce((acc, build) => {
-			acc[build.tool] = build.size;
+			acc[build.tool] = getKiB(build.size);
 			return acc;
 		}, {});
 		metadataTable += `\n| ${meta.version} | ${flatBuilds.parcel} | ${flatBuilds.rollup} |`;
