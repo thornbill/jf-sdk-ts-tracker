@@ -4,11 +4,11 @@
         "builds": [
             {
                 "tool": "parcel",
-                "size": 348683
+                "size": 333329
             },
             {
                 "tool": "rollup",
-                "size": 299025
+                "size": 284759
             }
         ]
     },
