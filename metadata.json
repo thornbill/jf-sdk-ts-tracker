@@ -13,6 +13,19 @@
         ]
     },
     {
+        "version": "v0.10.0",
+        "builds": [
+            {
+                "tool": "parcel",
+                "size": 338263
+            },
+            {
+                "tool": "rollup",
+                "size": 289358
+            }
+        ]
+    },
+    {
         "version": "v0.9.0",
         "builds": [
             {
