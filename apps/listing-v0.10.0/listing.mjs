@@ -8,14 +8,12 @@ const jellyfin = new Jellyfin(AppInfo);
 
 (async () => {
 	const api = jellyfin.createApi(ServerInfo.url);
-	const auth = await api.authenticateUserByName(
+	await api.authenticateUserByName(
 		ServerInfo.auth.username,
 		ServerInfo.auth.password
 	);
-	const user = auth.data.User;
 
-	const items = await getItemsApi(api).getItemsByUserId({
-		userId: user.Id,
+	const items = await getItemsApi(api).getItems({
 		fields: [ ItemFields.Path ],
 		recursive: true
 	});
