@@ -4,11 +4,11 @@
         "builds": [
             {
                 "tool": "parcel",
-                "size": 333329
+                "size": 188562
             },
             {
                 "tool": "rollup",
-                "size": 284759
+                "size": 238888
             }
         ]
     },
@@ -17,11 +17,11 @@
         "builds": [
             {
                 "tool": "parcel",
-                "size": 338263
+                "size": 338231
             },
             {
                 "tool": "rollup",
-                "size": 289358
+                "size": 289318
             }
         ]
     },
@@ -30,11 +30,11 @@
         "builds": [
             {
                 "tool": "parcel",
-                "size": 353504
+                "size": 353472
             },
             {
                 "tool": "rollup",
-                "size": 303623
+                "size": 303583
             }
         ]
     },
@@ -47,7 +47,7 @@
             },
             {
                 "tool": "rollup",
-                "size": 256659
+                "size": 256647
             }
         ]
     },
@@ -60,7 +60,7 @@
             },
             {
                 "tool": "rollup",
-                "size": 250408
+                "size": 250396
             }
         ]
     },
@@ -86,7 +86,7 @@
             },
             {
                 "tool": "rollup",
-                "size": 321640
+                "size": 321628
             }
         ]
     }

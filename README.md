@@ -9,10 +9,10 @@ This project builds a minimal app with each version of the `@jellyfin/sdk` npm p
 
 | Version | Build Size (Parcel) | Build Size (Rollup) |
 |---|---|---|
-| unstable | 325.52 KiB | 278.08 KiB |
-| v0.10.0 | 330.33 KiB | 282.58 KiB |
-| v0.9.0 | 345.22 KiB | 296.51 KiB |
-| v0.8.2 | 222.56 KiB | 250.64 KiB |
-| v0.8.1 | 217.35 KiB | 244.54 KiB |
+| unstable | 184.14 KiB | 233.29 KiB |
+| v0.10.0 | 330.30 KiB | 282.54 KiB |
+| v0.9.0 | 345.19 KiB | 296.47 KiB |
+| v0.8.2 | 222.56 KiB | 250.63 KiB |
+| v0.8.1 | 217.35 KiB | 244.53 KiB |
 | v0.8.0 | null | null |
-| v0.7.0 | 463.04 KiB | 314.10 KiB |
+| v0.7.0 | 463.04 KiB | 314.09 KiB |
